@@ -132,3 +132,87 @@ p {
   display: flex;
   align-items: center;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  margin: 25px 0;
+}
+
+.quote div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+  padding: 50px 150px;
+  height: 300px;
+  justify-content: center;
+}
+
+.quote div h3 {
+  display: flex;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+  align-items: center;
+}
+
+.quote div p {
+  display: flex;
+  font-weight: bold;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*
+** Action
+*/
+
+.action {
+  margin: 100px 100px;
+  padding: 5px;
+}
+
+.action div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #3882f6;
+  border-radius: 8px;
+  border-color: #3882f6;
+  border-style: solid;
+  color: #e5e7eb;
+  padding: 25px;
+  padding-right: 100px;
+  flex: 1;
+}
+
+.action div div {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.action button {
+  border-radius: 12px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-color: #f9faf8;
+  padding: 5px 25px;
+  border-width: 2px;
+}
+
+/*
+** Footer
+*/
+
+.footer {
+  background-color: #1f2937;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: #f9faf8;
+  font-size: smaller;
+}
