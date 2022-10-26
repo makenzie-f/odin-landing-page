@@ -87,8 +87,48 @@ p {
   color: #f9faf8;
   border: 0px;
 }
-
+/*
+** Main Content
+*/
 .main {
   padding: 5px;
   margin: 0 100px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-container h2 {
+  flex: 0;
+  padding: 5px;
+  margin-top: 25px;
+}
+
+.info-container div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.info-container div div {
+  flex: 1;
+  flex-direction: column;
+  padding: 10px;
+  width: 150px;
+}
+
+.info-container img {
+  border-radius: 12px;
+  border-color: #3882f6;
+  border-style: solid;
+  padding: 8px 0;
+}
+
+.info-container p {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
 }
